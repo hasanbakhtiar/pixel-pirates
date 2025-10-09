@@ -12,6 +12,8 @@ p:nth-child(3){
     /* font-weight: bolder; */
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    text-transform: lowercase;
+    text-decoration: underline;
     span{
         background-color: blue;
         color: green;
