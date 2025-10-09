@@ -1,0 +1,19 @@
+/* ul{
+    color: red;
+} */
+
+p:nth-child(3){
+    color: red;
+    font-size: 30px;
+    /* line-height: 100px;
+    letter-spacing: 20px;
+    word-spacing: 50px; */
+    font-style: italic;
+    /* font-weight: bolder; */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    span{
+        color: green;
+        font-size: 40px;
+    }
+}
