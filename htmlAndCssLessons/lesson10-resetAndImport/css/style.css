@@ -1,0 +1,19 @@
+
+
+@import url('./reset.css');
+@import url('./normailze.css');
+
+
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
