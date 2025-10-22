@@ -1,0 +1,31 @@
+@import url('./reset.css');
+@import url('./normailze.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
+.card-con {
+    
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .single-card {
+        border-radius: 10px;
+        
+        margin: 10px;
+        width: 20%;
+        height: 500px;
+        border: 1px solid #a9a9a9;
+
+        .img-con {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+
+
+    }
+}

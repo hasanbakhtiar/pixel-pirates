@@ -1,0 +1,21 @@
+@import url('./reset.css');
+@import url('./normailze.css');
+
+
+main {
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: stretch; */
+    /* align-content: flex-end; */
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+    gap: 20px 30px;
+    .box {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        font-size: 70px;
+        color: #fff;
+    }
+}
