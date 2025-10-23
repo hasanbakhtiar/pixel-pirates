@@ -1,0 +1,42 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+    bottom: 100px;
+  
+}
+
+
+
+
+
+/* .main-box{
+    margin: 20px;
+    width: 80%;
+    height: 80vh;
+    background-color: black;
+    position: relative;
+    .con-box{
+        width: 50%;
+        height: 50vh;
+        background-color: green;
+        .box{
+            position: absolute;
+            right: 100px;
+            bottom: 100px;
+
+
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    }
+} */
