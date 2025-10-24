@@ -1,0 +1,61 @@
+body,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 25px;
+    transition: 1s;
+
+    &::after {
+        content: "";
+        transition: 1s;
+        display: block;
+        width: 100px;
+        height: 0;
+        background-color: black;
+    }
+
+    &:hover::after {
+        height: 100px;
+    }
+
+    /* transition-property:transform, font-size ; */
+    /* transition-duration: 1s; */
+    /* transition-delay: 3s; */
+    /* transition-timing-function: ease; */
+    /* transition: 1s; */
+
+    /* transform: translateX(100px); */
+    /* transform: translateY(200px); */
+    /* transform: translate(100px,200px); */
+    /* transform: scale(1,5) */
+    /* transform: skew(72deg,56deg); */
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+    /* transform: rotate(270deg); */
+    /* &:hover{
+        transform: scale(2);
+        font-size: 40px;
+    }
+ */
+    /* p::first-letter{
+    color: blue;
+} */
+
+
+
+}
