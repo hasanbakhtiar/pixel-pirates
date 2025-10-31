@@ -1,0 +1,22 @@
+
+
+@media (max-width:700px) {
+    header {
+        nav {
+            ul {
+                display: none;
+            }
+
+            button {
+                display: block;
+            }
+        }
+    }
+
+    section{
+        flex-direction: column;
+        .card{
+            width: 95%;
+        }
+    }
+}
