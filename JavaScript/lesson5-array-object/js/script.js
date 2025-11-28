@@ -17,8 +17,46 @@
 // const product = [1,2,['table',[true,'hello',['summer','winter']],'book','book1'],3,4,5];
 // console.log(product[2][1][2][1]);
 
-const info = prompt();
+// const product = {
+//     title:"Asus Zenbook",
+//     price:3000,
+//     newDevice:true,
+//     color:['blue','black','white']
+// }
 
-const a = Number(info);
+// console.log(product.color[0]);
 
-console.log(typeof a);
+
+
+
+// const products = [
+//     {
+//         title: "Asus Zenbook",
+//         price: 3000,
+//         newDevice: true,
+//         color: ['blue', 'black', 'white']
+//     },
+//     {
+//         title: "Dell Xps",
+//         price: 5000,
+//         newDevice: true,
+//     },
+//     {
+//         title: "Lenovo Yoga",
+//         price: 7000,
+//         newDevice: true,
+//         color: ['blue']
+//     }
+// ]
+
+// console.log(products[0].title);
+
+
+
+
+const products = ['table','chair','glass'];
+// products.pop();
+// products.push('new value')
+// products.shift();
+// products.unshift('new value');
+console.log(products);
