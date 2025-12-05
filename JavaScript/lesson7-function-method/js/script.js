@@ -111,6 +111,22 @@ const furnitureThree = [
 ]
 
 
+// const filteredData = furnitureOne.filter((p) => (p.price <=200))
+// console.log(filteredData);
+
+
+
+// const groupMembers = ["Efsane","Fatima Ha","Nazife","Subhane","Aygun","Isa","Fatima Hu","Emilya"];
+// const info = Math.round(Math.random() * groupMembers.length-1);
+// console.log(groupMembers[info]);
+
+// console.log(Math);
+
+
+
+
+
+
 // const infoOne = (myname) => {
 //     return myname;
 // }
@@ -169,18 +185,44 @@ const furnitureThree = [
 
 
 
-const filteredData = (dataName,filteringItem,filtervalue)=>{
-if (filteringItem==="color") {
-    dataName.map((item)=>{
-        if (item.color===filtervalue) {
-            console.log(item.title);
-            
-        }
-    })
-}
+// const filteredData = (dataName,filteringItem,filtervalue)=>{
+// if (filteringItem==="color") {
+//     dataName.map((item)=>{
+//         if (item.color===filtervalue) {
+//             console.log(item.title);
 
-    
-}
+//         }
+//     })
+// }
 
-filteredData(furnitureOne,"color","red")
-filteredData(furnitureOne,"rea","red")
+
+// }
+
+// filteredData(furnitureOne,"color","red")
+// filteredData(furnitureOne,"rea","red")
+
+
+
+
+
+
+
+// for (let index = 0; index < 10; index++) {
+
+//     if (index===5) {
+//         continue;
+//     }
+//     console.log(index);
+// }
+
+
+// import {a} from './main.js';
+// import * as data from './main.js';
+
+// console.log(data.a);
+// console.log(data.b);
+
+
+
+
+
