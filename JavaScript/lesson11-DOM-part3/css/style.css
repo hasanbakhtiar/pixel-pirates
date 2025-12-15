@@ -1,0 +1,37 @@
+body {
+    overflow-x: hidden;
+}
+
+.left-bar-con {
+    width: 100%;
+
+    #left-bar {
+        transition: 1s;
+        width: 40%;
+        height: 30vh;
+        background-color: antiquewhite;
+    }
+}
+
+.hide {
+    transition: 1s;
+    transform: translateX(1000px);
+}
+
+.carousel-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .carousel-items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 50%;
+
+        img {
+            width: 100% !important;
+        }
+    }
+}
