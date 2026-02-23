@@ -34,7 +34,7 @@ const ProductForm = ({ formData, editdata }) => {
                         <label className="form-label">Price</label>
                         <input value={price} onChange={e => setPrice(e.target.value)} required type="text" className="form-control" />
                     </div>
-                    <button type="submit" className="btn btn-dark">Add</button>
+                    <button type="submit" className="btn btn-dark">{editdata?"Edit":"Add"}</button>
                 </form>
             </div>
 
