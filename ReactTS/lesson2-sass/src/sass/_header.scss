@@ -1,0 +1,42 @@
+@use 'variables' as *;
+@use 'mixin' as *;
+
+@function fibonacci($n) {
+    $sequence: 0 1;
+
+    @for $_ from 1 through $n {
+        $new: nth($sequence, length($sequence)) + nth($sequence, length($sequence) - 1);
+        $sequence: append($sequence, $new);
+    }
+
+    @return nth($sequence, length($sequence));
+}
+
+ul {
+    @include flexCenter();
+
+    @if($my-font-size==21px) {
+        color: red;
+    }
+
+    @else {
+        $base-color: #036;
+
+        @for $i from 1 through 20 {
+            ul:nth-child(3n + #{$i}) {
+                background-color: lighten($base-color, $i * 5%);
+            }
+        }
+
+
+
+        float: left;
+        margin-left: fibonacci(4) * 1px;
+
+    }
+
+    li {
+        @extend ul;
+        font-size: $my-font-size;
+    }
+}
